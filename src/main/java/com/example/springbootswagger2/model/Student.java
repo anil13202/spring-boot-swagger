@@ -9,8 +9,6 @@ public class Student {
 	private String country;
 	@ApiModelProperty(notes = "Name of the Student",name="name",required=true,value="test name")
 	private String name;
-	@ApiModelProperty(notes = "Country of the Student",name="country",required=true,value="test country")
-	private String country;
 
 
 	public Student(String name, String cls, String country) {
