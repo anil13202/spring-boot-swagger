@@ -5,6 +5,8 @@ import io.swagger.annotations.ApiModelProperty;
 public class Student {
 	@ApiModelProperty(notes = "Class of the Student",name="cls",required=true,value="test class")
 	private String cls;
+	@ApiModelProperty(notes = "Country of the Student",name="country",required=true,value="test country")
+	private String country;
 	@ApiModelProperty(notes = "Name of the Student",name="name",required=true,value="test name")
 	private String name;
 	@ApiModelProperty(notes = "Country of the Student",name="country",required=true,value="test country")

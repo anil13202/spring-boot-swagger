@@ -26,7 +26,7 @@ public class Swagger2DemoRestController {
 		students.add(new Student("Kajal", "III", "USA"));
 		students.add(new Student("Sukesh", "VI", "USA"));
 		students.add(new Student("Anil", "PMP", "BOSNIA"));
-
+		students.add(new Student("James", "PMP", "russia"));
 	}
 
 	@ApiOperation(value = "Get list of Students in the System ", response = Iterable.class, tags = "getStudents")
