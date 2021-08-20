@@ -25,7 +25,7 @@ public class Swagger2DemoRestController {
 		students.add(new Student("Lokesh", "V", "India"));
 		students.add(new Student("Kajal", "III", "USA"));
 		students.add(new Student("Sukesh", "VI", "USA"));
-		students.add(new Student("Anil", "PMP", "CROATIA"));
+		students.add(new Student("Anil", "PMP", "BOSNIA"));
 
 	}
 
