@@ -1,7 +1,7 @@
 package com.example.springbootswagger2.model;
 
 import io.swagger.annotations.ApiModelProperty;
-//comment
+//comment123
 public class Student {
 	@ApiModelProperty(notes = "Class of the Student",name="cls",required=true,value="test class")
 	private String cls;
