@@ -2,7 +2,7 @@ package com.example.springbootswagger2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//just a comment
+//just a comment HOLA
 @SpringBootApplication
 public class SpringBootSwagger2Application {
 
