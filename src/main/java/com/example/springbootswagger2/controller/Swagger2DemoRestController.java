@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import com.example.springbootswagger2.copybook.transaction.So1Record;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.springbootswagger2.model.Student;
+import com.example.springbootswagger2.copybook.transaction.bind.So1RecordBinding;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -28,6 +30,7 @@ public class Swagger2DemoRestController {
 		students.add(new Student("Anil", "PMP", "BOSNIA"));
 		students.add(new Student("James", "PMP", "UKRAINE"));
 	}
+    So1Record stu = new So1Record();
 
 	@ApiOperation(value = "Get list of Students in the System ", response = Iterable.class, tags = "getStudents")
 	@ApiResponses(value = { 
@@ -38,6 +41,7 @@ public class Swagger2DemoRestController {
 
 	@RequestMapping(value = "/getStudents")
 	public List<Student> getStudents() {
+		System.out.println("Display dependancy SO1 RECORD Legstar " + stu);
 		return students;
 	}
 
